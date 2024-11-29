@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa do Sushi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <a class="logo" href="/">CASA DO SUSHI</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="index.html">INÍCIO</a></li>
+            <li><a href="https://wa.me/5581981751725">WHATSAPP</a></li>
+            <li><a href="https://www.instagram.com/casa.do.sushi23/profilecard/?igsh=MWE1aM1jhjd-TBxMQ==">INSTAGRAM</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <img src="almoço.jpg" alt="imagem de almoço" class="card-img">
+            <h2 class="card-title">ALMOÇO</h2>
+            <p class="price">1 carne: R$18,00</p>
+            <p class="price">2 carnes: R$23,00</p>
+            <button id="select-button">Escolher Opções</button>
+
+            <div id="options" class="optionshidden">
+                <h3>Selecione as carnes:</h3>
+                <select id="carnes" multiple>
+                    <option value="carne de Sol">Carne de Sol</option>
+                    <option value="coxa sobrecoxa">Coxa com Sobrecoxa</option>
+                    <option value="cupim">Cupim</option>
+                    <option value="isca frango">Isca de Frango</option>
+                    <option value="parmegiana carne">Parmegiana de Carne</option>
+                    <option value="parmegiana frango">Parmegiana de Frango</option>
+                    <option value="peixe empanado">Peixe Empanado</option>
+                    <option value="peixe grelhado">Peixe Grelhado</option>
+                    <option value="tiras carne">Tiras de Carne</option>
+                </select>
+
+                <h3>Selecione o Feijão:</h3>
+                <select id="feijoes">
+                    <option value="preto">Preto</option>
+                    <option value="tropeiro">Tropeiro</option>
+                </select>
+
+                <h3>Acompanhamentos:</h3>
+                <p>Arroz, Batata-Frita, Farofa, Macarrão, Vinagrete</p>
+            </div>
+        </div>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
